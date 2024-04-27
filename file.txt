@@ -1,0 +1,3 @@
+Here i will put up all my dotfiles such that i dont need to reinstall and config everyting
+
+
