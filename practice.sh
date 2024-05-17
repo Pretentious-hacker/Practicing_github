@@ -10,11 +10,16 @@
 # echo "Hello Mother Fuckers $i times"
 # done
 
-for i in file_{1..69}
-do 
-    touch ./touchingrass/$i
-    for ((j=0; j<=$i; j++))
-    do
-    echo "Fuck your mother $j times" >> ./touchingrass/$i
-    done
+# for i in file_{1..69}
+# do 
+#     touch ./touchingrass/$i
+#     for ((j=0; j<=$i; j++))
+#     do
+#     echo "Fuck your mother $j times" >> ./touchingrass/$i
+#     done
+# done
+
+for i in $(ls /bin/)
+do
+    echo $i | tee bin.txt
 done
